@@ -63,13 +63,13 @@ After packaging, the executable will be available in the `dist` folder.
 
 - `emi_and_loan_eligibility_calculator.py` — main application source file
 - `LICENSE` — MIT license, copyright 2026 AVIK MUKHERJEE
-- `PRIVACY.md` — privacy policy and data usage notes
+- `PRIVACY_POLICY.md` — privacy policy and data usage notes
 - `.gitignore` — ignores virtual environments, build artifacts, and sensitive files
 - `README.md` — project overview and usage instructions
 
 ## Privacy
 
-This application includes a privacy policy. See [PRIVACY.md](PRIVACY.md) for details.
+This application includes a privacy policy. See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for details.
 
 ## License
 
