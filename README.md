@@ -2,7 +2,7 @@
 
 A modern-looking EMI and loan eligibility calculator application built with Python and Tkinter.
 
-This project helps users calculate monthly EMI, total payment, and total interest using loan amount, interest rate, and tenure inputs. It also includes a loan eligibility tab and a duration comparison chart with scroll support.
+This project helps users calculate monthly EMI, total payment, and total interest using loan amount, interest rate, and tenure inputs. It also includes a loan eligibility estimator and a duration comparison chart with scroll support.
 
 ## Features
 
@@ -11,7 +11,7 @@ This project helps users calculate monthly EMI, total payment, and total interes
 - Loan eligibility estimation based on income, existing EMI-to-income ratio, and tenure
 - Duration planner with comparison table for multiple loan tenures
 - Dual input controls: sliders and text fields synchronized together
-- License `License` popup with MIT ownership declaration
+- License popup with MIT ownership declaration
 - Modern UI styling with card-style panels and responsive layout
 
 ## Requirements
@@ -25,7 +25,7 @@ This project helps users calculate monthly EMI, total payment, and total interes
 2. Create a virtual environment in the project folder:
 
 ```powershell
-cd "e:\Git Projects\EMI Calculator"
+cd "E:\Git Projects\EMI and Loan Eligibility Calculator"
 python -m venv .venv
 ```
 
@@ -46,7 +46,7 @@ python -m pip install --upgrade pip
 While the virtual environment is active, run:
 
 ```powershell
-python emi_calculator.py
+python emi_and_loan_eligibility_calculator.py
 ```
 
 ## Packaging as an Executable
@@ -54,17 +54,22 @@ python emi_calculator.py
 To create a standalone Windows executable with PyInstaller:
 
 ```powershell
-pyinstaller --onefile --windowed --add-data "LICENSE;." --name "EMI Calculator" emi_calculator.py
+pyinstaller --onefile --windowed --add-data "LICENSE;." --name "EMI and Loan Eligibility Calculator" emi_and_loan_eligibility_calculator.py
 ```
 
 After packaging, the executable will be available in the `dist` folder.
 
 ## Project Files
 
-- `emi_calculator.py` — main application source file
+- `emi_and_loan_eligibility_calculator.py` — main application source file
 - `LICENSE` — MIT license, copyright 2026 AVIK MUKHERJEE
+- `PRIVACY.md` — privacy policy and data usage notes
 - `.gitignore` — ignores virtual environments, build artifacts, and sensitive files
 - `README.md` — project overview and usage instructions
+
+## Privacy
+
+This application includes a privacy policy. See [PRIVACY.md](PRIVACY.md) for details.
 
 ## License
 
